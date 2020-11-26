@@ -22,4 +22,4 @@ sudo groupadd docker
 sudo usermod -aG docker $USER
 sudo systemctl enable docker
 
-apt-get install docker-compose
+apt-get install docker-compose -y
